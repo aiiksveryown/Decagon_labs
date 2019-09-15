@@ -1,0 +1,17 @@
+Tobi was tasked to get a list of numbers seperated by comma, unfortunately his keyboard malfunctioned
+in the process hitting the comma (,) key, random characters that are not numbers were added to the collection instead of the expected commas
+
+what is need from Tobi is a collection of the numbers so you can build a calculator for these collection.
+but we are currently faced with a challenge, how do we weed off the characters and leave you with the numbers?
+
+
+Your new obligation is to help us build a calculator to handle Tobi's results
+
+given a string of length N containing numbers and non-numbers, 
+build a calculator that extracts the numbers in the collection
+and return the sum of the extracted numbers
+
+For Example;
+sumNumbers(‘1weudh56jdnbfskjn788sdhkfbs90’) => 935
+
+note: Do not use Regular Expressions for this task as our system do not support it. 

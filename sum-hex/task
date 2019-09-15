@@ -1,0 +1,9 @@
+* Given a string Y containing hexadecimal numbers, find the highest of the sum of each N
+* consecutive numbers in the string.
+
+highestSum('12F7A9348', 3);
+
+highestSum('12F7A9348', 3) to return 26;
+highestSum('453DAF12F', 2) to return 25;
+highestSum('1231ADE', 4) to return 7;
+highestSum('ADE', 4) to return 0;

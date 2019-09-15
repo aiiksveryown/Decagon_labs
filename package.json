@@ -1,0 +1,15 @@
+{
+  "name": "letter-switch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "letterSwitch.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Moses Tyav",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.8.0"
+  }
+}

@@ -1,0 +1,41 @@
+You know what a grid means?
+Dennis is trying to figure out the shortest grid distance to his destination.
+he is given a consecutive description of the destination from his location.
+
+
+5km east
+2km west
+5km north
+2km east
+4km north
+
+                             4km(14km)(final destination)
+                              ^
+                              |
+                 5km(8km) -->2km(10km)
+                  ^
+                  |
+(start)5km----->(3km)<--2km
+
+his shortest grid destination is 14km
+
+explanation:
+Dennis is told to walk 5km towards the east and walk 2km towards the west (backward), 
+then 5km towards the north and then 2km to the east and finally 4km northward
+for Dennis to save time, he cuts out the direction that are not necessary and calculates the total.
+
+Your task:
+write a function to calculate the shortest grid to his destination. 
+The function should recieve an array collection of directions of length N in the format of the distance and direction ['3km-north']
+the function should return the shortest grid distance to be covered in the format Mkm where M is the distance in km
+
+example:
+gridDistance(['2km-west', '4km-south', '0km-north', '12km-east']) => 14km
+gridDistance(['5km-east', '2km-west', '5km-north', '2km-east', '4km-north']) => 14km
+
+
+considerations:
+0 <= N <= 100
+0 <= M 
+
+

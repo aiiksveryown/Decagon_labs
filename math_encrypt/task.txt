@@ -1,0 +1,29 @@
+A group of maths scholars have solutions to share among themselves in a competion, 
+but this solution would have to pass through their opponents to get to there team members
+the have chosen to encrypt a the solution with a mathematical computing technique such that:
+
+"a + b"  would be ab+
+"a + b - c" would be ab+c-
+"a + b * c" would be abc*+
+"a * b + c" would be ab*c+
+"a + c * b - d / e" would be acb*+de/- 
+"a * d - b + c" would be ad*b-c+ 
+
+other considerations
+"( 4 - 9 )" would be 49-
+"7 + ( 4 - 9 ) * 6" would be 749-6*+
+
+your task should you choose to accept, is to create a function that takes the actual mathematical expression as a string
+and return the encrypted version as a string.
+
+hint: 
+the BODMAS principle is used
+the Others operation is not considered
+every character is spaced
+operand are characters with 0-9, a-z and A-Z
+operators are +, *, -, /, (, and )
+
+example:
+mathEncrypt("a * d / f") => "ad*f/"
+mathEncrypt("( b - c )") => "bc-"
+mathEncrypt("5 * ( 6 + 7 * 2 )") => "5672*+*

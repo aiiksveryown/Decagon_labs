@@ -1,0 +1,22 @@
+A team of developers, have a project to build a new programming language using Javascript
+they need a developer to build them a syntax reader for braces only to check if braces are properly closed
+this determines if the syntax is correct or not.
+your task is to build a syntax reader to check if syntax is correct or return the position of the error brace
+
+given a string of syntax of length N containing only braces "[]{}()<>", 
+check that the syntax is correct or return the position of the wrong braces
+if correct return "ok", if wrong, return the position of the first error.
+
+
+constraint:
+0 <= N <= 100000000
+N contain only these characters {}[]()<>
+
+For example: 
+readSyntax('{{}}') => 'ok'
+readSyntax('[[>]') => 2
+readSyntax('[[>]{}()<>') => 2
+
+
+
+

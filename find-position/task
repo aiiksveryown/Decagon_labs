@@ -1,0 +1,37 @@
+Given a matrix, represented by an array X, return in an array the row and column of the highest number in the matrix.
+
+
+highestNum(X) to return [N, M]
+ arr = [
+   [66, 3, 9], 
+   [ 1, 8, 98], 
+   [7, 9, 7]
+  ]
+highestNum(arr) => [ 1, 2]
+
+        0   1   2   ...   M
+
+  0     66  3   9
+  1     1   8   98
+  2     7   9   7
+  .
+  .
+  N
+
+
+the highest number is in the position row 1 and column 2  
+[ 1, 2]
+
+   
+arr2 = [
+  [3,5,2],
+  [55,6,22],
+  [54,64,110]
+]
+highestNum(arr2) to return [2,2]
+
+
+Note:
+0 <= N
+0 <= M
+N <= M || M <= N
